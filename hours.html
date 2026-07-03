@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Opening Hours — Insieme Hair Salon</title>
-<meta name="description" content="Opening hours for Insieme Hair Salon, including holiday exceptions and walk-in policy. Book ahead to guarantee your stylist and time.">
+<meta name="description" content="Find Insieme Hair Salon's opening hours for every day of the week, including holiday notes and booking information.">
 <link rel="canonical" href="https://www.insiemehairsalon.com/hours.html">
-<meta property="og:title" content="Opening Hours — Insieme Hair Salon">
 <meta property="og:type" content="website">
+<meta property="og:title" content="Opening Hours — Insieme Hair Salon">
+<meta property="og:description" content="Opening hours for every day of the week, including holiday notes.">
 <meta property="og:url" content="https://www.insiemehairsalon.com/hours.html">
 <meta name="robots" content="index, follow">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,89 +28,108 @@
 </head>
 <body>
 
-<header id="siteHeader">
-  <div class="wrap">
-    <nav>
-      <a href="index.html" class="logo">Ins<span>i</span>eme</a>
-      <ul class="nav-links" id="navLinks">
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Insieme</a>
+    <nav aria-label="Primary">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav-menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="hours.html" class="active">Hours</a></li>
+        <li><a href="hours.html" aria-current="page">Hours</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html" class="btn">Book Now</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
     </nav>
   </div>
 </header>
 
-<section class="page-hero">
-  <div class="wrap">
-    <p class="breadcrumb"><a href="index.html">Home</a> / Opening Hours</p>
-    <p class="eyebrow" data-reveal>Opening Hours</p>
-    <h1 data-reveal>Come by, or book ahead.</h1>
-    <p data-reveal>We hold a handful of walk-in slots each day, but booking ahead guarantees your stylist and time.</p>
-  </div>
-</section>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Opening Hours</span>
+      <h1>When to find us</h1>
+      <p>Walk-ins are welcome when we have space, but booking ahead guarantees your stylist and time.</p>
+    </div>
+  </section>
 
-<section>
-  <div class="wrap">
-    <div class="hours-wrap">
-      <div class="hours-table" data-reveal id="hoursTable">
-        <div class="hours-row closed" data-day="0"><span class="day">Sunday</span><span class="time">Closed</span></div>
-        <div class="hours-row" data-day="1"><span class="day">Monday</span><span class="time">Closed</span></div>
-        <div class="hours-row" data-day="2"><span class="day">Tuesday</span><span class="time">9:00 — 18:00</span></div>
-        <div class="hours-row" data-day="3"><span class="day">Wednesday</span><span class="time">9:00 — 18:00</span></div>
-        <div class="hours-row" data-day="4"><span class="day">Thursday</span><span class="time">9:00 — 20:00</span></div>
-        <div class="hours-row" data-day="5"><span class="day">Friday</span><span class="time">9:00 — 18:00</span></div>
-        <div class="hours-row" data-day="6"><span class="day">Saturday</span><span class="time">9:00 — 17:00</span></div>
+  <section class="section">
+    <div class="container" style="max-width:680px;">
+      <div class="hours-table-wrap">
+        <table class="hours-table">
+          <tr data-day="Monday"><th scope="row">Monday</th><td>Closed</td></tr>
+          <tr data-day="Tuesday"><th scope="row">Tuesday</th><td>9:00 AM – 6:00 PM</td></tr>
+          <tr data-day="Wednesday"><th scope="row">Wednesday</th><td>9:00 AM – 6:00 PM</td></tr>
+          <tr data-day="Thursday"><th scope="row">Thursday</th><td>9:00 AM – 8:00 PM</td></tr>
+          <tr data-day="Friday"><th scope="row">Friday</th><td>9:00 AM – 8:00 PM</td></tr>
+          <tr data-day="Saturday"><th scope="row">Saturday</th><td>9:00 AM – 5:00 PM</td></tr>
+          <tr data-day="Sunday"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </table>
       </div>
-      <div class="visit-card" data-reveal>
-        <h3>Planning a visit?</h3>
-        <p>Late arrivals beyond 10 minutes may need to be rescheduled to protect the next guest's appointment. Colour services should be booked at least a week ahead during peak season.</p>
-        <a href="contact.html" class="btn btn-solid">Book your slot</a>
+      <p class="holiday-note">Hours may vary on public holidays — please call ahead to confirm.</p>
+
+      <div class="info-strip">
+        <div>
+          <span class="label">Walk-ins</span>
+          <p>Welcome for cuts and blow-drys, subject to availability. Colour and treatment services need a booked appointment.</p>
+        </div>
+        <div>
+          <span class="label">Cancellations</span>
+          <p>Please give at least 24 hours' notice to cancel or reschedule, so we can offer the slot to another guest.</p>
+        </div>
+        <div>
+          <span class="label">Late arrivals</span>
+          <p>Arrivals more than 10 minutes late may need to be rescheduled to protect the next guest's appointment.</p>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="info-strip">
-      <div data-reveal>
-        <div class="label">Holiday hours</div>
-        <p>We close early (4pm) on public holiday eves and remain closed on major public holidays. Updated hours are always posted here and on our Instagram.</p>
-      </div>
-      <div data-reveal>
-        <div class="label">Walk-ins</div>
-        <p>Walk-ins are welcome for cuts and blow-drys, subject to availability. Colour and treatment services require a booked appointment.</p>
-      </div>
-      <div data-reveal>
-        <div class="label">Cancellations</div>
-        <p>We ask for at least 24 hours' notice to cancel or reschedule, so we can offer the slot to another guest.</p>
-      </div>
+  <section class="cta-band">
+    <div class="container">
+      <span class="eyebrow">Plan ahead</span>
+      <h2>Book your visit</h2>
+      <p>Choose your preferred day and time, or call us directly.</p>
+      <a href="contact.html" class="btn btn-primary">Book an appointment</a>
     </div>
-  </div>
-</section>
+  </section>
+</main>
 
-<footer>
-  <div class="wrap">
-    <div class="footer-top">
-      <a href="index.html" class="logo">Ins<span>i</span>eme</a>
-      <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="hours.html">Hours</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Insieme</div>
+        <p class="footer-about">L'arte di stare insieme. Precision cutting, warm hospitality and Italian craft — together.</p>
+        <div class="social-links">
+          <a href="https://instagram.com/insiemehairsalon" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1"/></svg></a>
+          <a href="https://facebook.com/insiemehairsalon" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V5.5h-3c-2 0-3.5 1.5-3.5 3.5v2H8v3.5h2.5V21H14v-6.5h2.6l.4-3.5H14V9z"/></svg></a>
+          <a href="https://tiktok.com/@insiemehairsalon" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3v10.6a3.4 3.4 0 1 1-2.6-3.3"/><path d="M14 3c.4 2.4 2.2 4.2 4.6 4.5"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p style="margin-bottom:8px;">123 High Street<br>Your City, ST 00000</p>
+        <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="hours.html">Opening Hours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Insieme Hair Salon. All rights reserved.</span>
-      <span>Privacy Policy · Terms</span>
+      <span>&copy; <span data-year></span> Insieme Hair Salon</span>
+      <span>Site by your team</span>
     </div>
   </div>
 </footer>
 
-<script src="assets/script.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

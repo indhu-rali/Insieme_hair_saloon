@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gallery — Insieme Hair Salon</title>
-<meta name="description" content="Browse recent work from Insieme Hair Salon — cuts, colour, styling and studio shots from the chair.">
+<meta name="description" content="Browse our latest cuts, colour transformations and styling work from the Insieme Hair Salon team.">
 <link rel="canonical" href="https://www.insiemehairsalon.com/gallery.html">
-<meta property="og:title" content="Gallery — Insieme Hair Salon">
 <meta property="og:type" content="website">
+<meta property="og:title" content="Gallery — Insieme Hair Salon">
+<meta property="og:description" content="Cuts, colour transformations and styling work from our team.">
 <meta property="og:url" content="https://www.insiemehairsalon.com/gallery.html">
 <meta name="robots" content="index, follow">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,86 +28,137 @@
 </head>
 <body>
 
-<header id="siteHeader">
-  <div class="wrap">
-    <nav>
-      <a href="index.html" class="logo">Ins<span>i</span>eme</a>
-      <ul class="nav-links" id="navLinks">
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Insieme</a>
+    <nav aria-label="Primary">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav-menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="hours.html">Hours</a></li>
-        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html" class="btn">Book Now</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
     </nav>
   </div>
 </header>
 
-<section class="page-hero">
-  <div class="wrap">
-    <p class="breadcrumb"><a href="index.html">Home</a> / Gallery</p>
-    <p class="eyebrow" data-reveal>Gallery</p>
-    <h1 data-reveal>Recent work, from the chair.</h1>
-    <p data-reveal>A running record of cuts, colour and finishes from the studio. Tag us <strong style="color:var(--gold-light); font-weight:500;">@insiemehair</strong> if we did yours.</p>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="gallery-filters" data-reveal>
-      <button class="active" data-filter="all">All</button>
-      <button data-filter="cuts">Cuts</button>
-      <button data-filter="colour">Colour</button>
-      <button data-filter="styling">Styling</button>
-      <button data-filter="studio">Studio</button>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Gallery</span>
+      <h1>From the studio</h1>
+      <p>A sample of cuts, colour and styling from our chairs. Tag us <strong>@insiemehairsalon</strong> if we did yours.</p>
     </div>
-    <div class="gallery-grid" data-reveal>
-      <a href="#" data-cat="colour"><img loading="lazy" src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=900&auto=format&fit=crop" alt="Balayage colour result"></a>
-      <a href="#" data-cat="cuts"><img loading="lazy" src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=700&auto=format&fit=crop" alt="Precision bob cut"></a>
-      <a href="#" data-cat="studio"><img loading="lazy" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=700&auto=format&fit=crop" alt="Salon interior detail"></a>
-      <a href="#" data-cat="styling"><img loading="lazy" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=900&auto=format&fit=crop" alt="Soft wave styling"></a>
-      <a href="#" data-cat="colour"><img loading="lazy" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=700&auto=format&fit=crop" alt="Colour gloss finish"></a>
-      <a href="#" data-cat="styling"><img loading="lazy" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=900&auto=format&fit=crop" alt="Bridal updo styling"></a>
-      <a href="#" data-cat="cuts"><img loading="lazy" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=700&auto=format&fit=crop" alt="Layered cut finish"></a>
-      <a href="#" data-cat="studio"><img loading="lazy" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=700&auto=format&fit=crop" alt="Stylist at work in studio"></a>
-      <a href="#" data-cat="colour"><img loading="lazy" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=900&auto=format&fit=crop" alt="Rich colour result on model"></a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="cta-strip" style="text-align:center; border-top:1px solid var(--line); padding-top:80px;">
-  <div class="wrap" data-reveal>
-    <p class="eyebrow" style="justify-content:center;">Like what you see?</p>
-    <h2 style="margin-top:20px; font-size:clamp(30px,5vw,48px);">Let's create something for you.</h2>
-    <div class="hero-cta" style="justify-content:center; margin-top:36px;">
-      <a href="contact.html" class="btn btn-solid">Book an appointment</a>
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters" data-reveal>
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="Taglio">Taglio</button>
+        <button data-filter="Colore">Colore</button>
+        <button data-filter="Styling">Styling</button>
+        <button data-filter="Trattamenti">Trattamenti</button>
+        <button data-filter="Studio">Studio</button>
+      </div>
+      <div class="gallery-grid" data-reveal>
+        <figure class="ptile" data-cat="Colore">
+          <span class="ptile--tag">Colore</span>
+          <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=500&auto=format&fit=crop" alt="Balayage colour transformation">
+          <span class="ptile-caption">Balayage colour transformation</span>
+        </figure>
+        <figure class="ptile" data-cat="Taglio">
+          <span class="ptile--tag">Taglio</span>
+          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=500&auto=format&fit=crop" alt="Precision bob cut">
+          <span class="ptile-caption">Precision bob cut</span>
+        </figure>
+        <figure class="ptile" data-cat="Styling">
+          <span class="ptile--tag">Styling</span>
+          <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=500&auto=format&fit=crop" alt="Bridal updo styling">
+          <span class="ptile-caption">Bridal updo styling</span>
+        </figure>
+        <figure class="ptile" data-cat="Colore">
+          <span class="ptile--tag">Colore</span>
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=500&auto=format&fit=crop" alt="Root melt colour blend">
+          <span class="ptile-caption">Root melt colour blend</span>
+        </figure>
+        <figure class="ptile" data-cat="Taglio">
+          <span class="ptile--tag">Taglio</span>
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=500&auto=format&fit=crop" alt="Textured men's crop">
+          <span class="ptile-caption">Textured men's crop</span>
+        </figure>
+        <figure class="ptile" data-cat="Trattamenti">
+          <span class="ptile--tag">Trattamenti</span>
+          <img src="https://images.unsplash.com/photo-1522336284037-91f7da073525?q=80&w=500&auto=format&fit=crop" alt="Keratin smoothing result">
+          <span class="ptile-caption">Keratin smoothing result</span>
+        </figure>
+        <figure class="ptile" data-cat="Styling">
+          <span class="ptile--tag">Styling</span>
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=500&auto=format&fit=crop" alt="Soft curls finish">
+          <span class="ptile-caption">Soft curls finish</span>
+        </figure>
+        <figure class="ptile" data-cat="Colore">
+          <span class="ptile--tag">Colore</span>
+          <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=500&auto=format&fit=crop" alt="Copper colour transformation">
+          <span class="ptile-caption">Copper colour transformation</span>
+        </figure>
+        <figure class="ptile" data-cat="Studio">
+          <span class="ptile--tag">Studio</span>
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=500&auto=format&fit=crop" alt="Salon interior">
+          <span class="ptile-caption">Salon interior</span>
+        </figure>
+      </div>
+      <p class="gallery-note">Want to see more or a specific style? Follow us on Instagram — link in the footer — for daily updates.</p>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <div class="wrap">
-    <div class="footer-top">
-      <a href="index.html" class="logo">Ins<span>i</span>eme</a>
-      <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="hours.html">Hours</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  <section class="cta-band">
+    <div class="container">
+      <span class="eyebrow">Your turn</span>
+      <h2>See your look here next.</h2>
+      <p>Book an appointment and let's create something worth showing off.</p>
+      <a href="contact.html" class="btn btn-primary">Book an appointment</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Insieme</div>
+        <p class="footer-about">L'arte di stare insieme. Precision cutting, warm hospitality and Italian craft — together.</p>
+        <div class="social-links">
+          <a href="https://instagram.com/insiemehairsalon" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1"/></svg></a>
+          <a href="https://facebook.com/insiemehairsalon" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V5.5h-3c-2 0-3.5 1.5-3.5 3.5v2H8v3.5h2.5V21H14v-6.5h2.6l.4-3.5H14V9z"/></svg></a>
+          <a href="https://tiktok.com/@insiemehairsalon" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3v10.6a3.4 3.4 0 1 1-2.6-3.3"/><path d="M14 3c.4 2.4 2.2 4.2 4.6 4.5"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p style="margin-bottom:8px;">123 High Street<br>Your City, ST 00000</p>
+        <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="hours.html">Opening Hours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="year"></span> Insieme Hair Salon. All rights reserved.</span>
-      <span>Privacy Policy · Terms</span>
+      <span>&copy; <span data-year></span> Insieme Hair Salon</span>
+      <span>Site by your team</span>
     </div>
   </div>
 </footer>
 
-<script src="assets/script.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
