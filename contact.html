@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Book — Insieme Hair Salon</title>
+<meta name="description" content="Get in touch with Insieme Hair Salon to book an appointment, ask a question, or find directions to our salon.">
+<link rel="canonical" href="https://www.insiemehairsalon.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact &amp; Book — Insieme Hair Salon">
+<meta property="og:description" content="Book an appointment, ask a question, or find directions to our salon.">
+<meta property="og:url" content="https://www.insiemehairsalon.com/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Insieme</a>
+    <nav aria-label="Primary">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="hours.html">Hours</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact &amp; Book</span>
+      <h1>Let's find your time</h1>
+      <p>Send a message with your preferred day, time and service, and we'll confirm your appointment — or just call us directly.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Visit or reach us</h2>
+          <dl>
+            <dt>Address</dt>
+            <dd data-biz-address></dd>
+            <dt>Phone</dt>
+            <dd><a data-biz-phone-link data-biz-phone></a></dd>
+            <dt>Email</dt>
+            <dd><a data-biz-email-link data-biz-email></a></dd>
+          </dl>
+          <div class="social-links" style="margin-top:24px;"></div>
+          <div class="map-embed" id="map-embed"></div>
+          <a href="#" data-biz-directions target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:20px;">Get directions</a>
+        </div>
+
+        <div>
+          <h2>Send a message</h2>
+          <form id="contact-form" style="margin-top:24px;" novalidate>
+            <div class="form-field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Preferred service, day and time..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Insieme</div>
+        <p class="footer-about">L'arte di stare insieme. Precision cutting, warm hospitality and Italian craft — together.</p>
+        <div class="social-links"></div>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p data-biz-address style="margin-bottom:8px;"></p>
+        <p><a data-biz-phone-link data-biz-phone></a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="hours.html">Opening Hours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> Insieme Hair Salon</span>
+      <span>Site by your team</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
